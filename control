@@ -1,0 +1,9 @@
+Package: nl.d4ni.notificationtester
+Name: NotificationTester
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: D4ni <mail@d4ni.nl>
+Author: D4ni <mail@d4ni.nl>
+Section: Tweaks

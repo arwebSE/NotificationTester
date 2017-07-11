@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = NotificationTesterPrefs;
+	cell = PSLinkCell;
+	detail = NotificationTesterPrefsListController;
+	icon = prefs.png;
+	isController = 1;
+	label = NotificationTester;
+    };
+}

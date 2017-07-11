@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<string>lockscreenNotification</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Lockscreen Notification</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>normalNotification</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Normal Notification</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Options</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>Random Apps</string>
+			<key>defaults</key>
+			<string>nl.d4ni.notificationtesterprefs</string>
+			<key>key</key>
+			<string>randomApps</string>
+			<key>PostNotification</key>
+			<string>nl.d4ni.notificationtester/changed</string>
+			<key>default</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Number of notifications</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<integer>1</integer>
+			<key>defaults</key>
+			<string>nl.d4ni.notificationtesterprefs</string>
+			<key>key</key>
+			<string>customAmount</string>
+			<key>PostNotification</key>
+			<string>nl.d4ni.notificationtester/changed</string>
+			<key>max</key>
+			<real>10</real>
+			<key>min</key>
+			<real>1</real>
+			<key>showValue</key>
+			<true/>
+			<key>isSegmented</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Notification Text</string>
+		</dict>
+		<dict>
+	    <key>cell</key>
+			<string>PSEditTextCell</string>
+	    <key>defaults</key>
+			<string>nl.d4ni.notificationtesterprefs</string>
+	    <key>key</key>
+			<string>customText</string>
+	    <key>PostNotification</key>
+			<string>nl.d4ni.notificationtester/changed</string>
+			<key>placeholder</key>
+			<string>This is a mighty fine Test Notification!</string>
+    </dict>
+    <dict>
+      <key>cell</key>
+			<string>PSButtonCell</string>
+      <key>label</key>
+			<string>Save</string>
+      <key>action</key>
+			<string>save</string>
+			<key>PostNotification</key>
+			<string>nl.d4ni.notificationtester/changed</string>
+    </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Contact</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>contact</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Bugs? Let me know!</string>
+			<key>icon</key>
+			<string>mail.png</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>follow</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Follow me on Twitter!</string>
+			<key>icon</key>
+			<string>twitter.png</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>github</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Source is on GitHub.</string>
+			<key>icon</key>
+			<string>github.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Please consider donating if you like my work!</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>donate</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Donate via PayPal!</string>
+			<key>icon</key>
+			<string>paypal.png</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>NotificationTester</string>
+</dict>
+</plist>
